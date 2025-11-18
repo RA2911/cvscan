@@ -38,31 +38,31 @@ document.addEventListener('click', (e) => {
 // Image data with titles and descriptions for CV Scanning
 const imageData = [
     {
-        title: "Document Upload",
+        title: "Candidate Contribution",
         description: "Upload CVs in any format - PDF, DOCX, or image"
     },
     {
-        title: "Smart Recognition",
+        title: "Candidate Skills",
         description: "AI instantly identifies all key information"
     },
     {
-        title: "Skills Detection",
+        title: "Job Match",
         description: "Automatically extract and categorize skills"
     },
     {
-        title: "Career Timeline",
+        title: "Job Description",
         description: "Parse experience and employment history"
     },
     {
-        title: "Education Analysis",
+        title: "Candidate Summary",
         description: "Identify degrees, certifications, and training"
     },
     {
-        title: "Talent Matching",
+        title: "CV Risk Analysis",
         description: "Match profiles to ideal opportunities"
     },
     {
-        title: "Insight Dashboard",
+        title: "Recommendations",
         description: "Visualize career data and recommendations"
     }
 ];
