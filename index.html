@@ -630,6 +630,33 @@
                 a.addEventListener('click', () => menu.classList.remove('is-open'));
             });
         })();
+
+        /* ===== FORCE MOBILE MENU VISIBILITY (FINAL OVERRIDE) ===== */
+@media (max-width: 900px) {
+  header#header nav#mainMenu.main-menu,
+  #header #mainMenu.main-menu {
+    background: rgba(255,255,255,0.97) !important;
+  }
+
+  header#header nav#mainMenu.main-menu a,
+  header#header nav#mainMenu.main-menu a:visited,
+  header#header nav#mainMenu.main-menu a.menu-item,
+  #header #mainMenu.main-menu .menu-item,
+  #header #mainMenu.main-menu .menu-item:visited {
+    color: #111 !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+  }
+
+  header#header nav#mainMenu.main-menu a:hover,
+  header#header nav#mainMenu.main-menu a:focus,
+  header#header nav#mainMenu.main-menu a.active,
+  #header #mainMenu.main-menu .menu-item:hover,
+  #header #mainMenu.main-menu .menu-item.active {
+    color: #111 !important;
+  }
+}
+
     </script>
 </body>
 </html>
